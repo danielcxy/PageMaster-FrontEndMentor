@@ -1,0 +1,36 @@
+#phrase3 {
+    display: none;
+    justify-content: center;   
+    color: red;
+    font-size: 12px;
+    font-family: 'Libre Franklin', sans-serif;
+    margin-left: 60px;
+    margin-top: 10px;   
+    position: relative;
+    bottom: 80px; 
+    left: 110px;
+}
+.phrase {
+    font-family: 'Libre Franklin';
+    font-size: 40px;
+    text-align: center;
+    color: hsl(0, 0%, 59%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+button {
+    margin-top: 40px;    
+    width: 405px;
+    position: relative;
+    right: 5px;
+}
+.img {
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 50px;
+    width:480px;
+}

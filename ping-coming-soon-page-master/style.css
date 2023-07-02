@@ -1,0 +1,80 @@
+body {
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+    border: 0;
+    margin: 0;
+}
+.logo {
+    width: 100vw;
+    height:100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.phrase {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: hsl(0, 0%, 59%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.soon{
+    color: hsl(209, 33%, 12%);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+}
+.phrase2 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: 'Libre Franklin', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+#phrase3 {
+    display: flex;
+    justify-content: left;   
+    color: red;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 12px;
+    margin-left: 410px;
+    margin-top: 10px;   
+}
+#emailinput {
+    margin-top: 20px;
+    
+    text-align: center;
+    align-items: center;
+}
+.emailbox {
+    border-radius: 50px;
+    border-color:hsl(0, 0%, 59%);
+    border-width: 1px;   
+    width: 400px;
+    height: 38px;
+}
+button {
+    background-color: hsl(223, 87%, 63%);
+    color: white;
+    border-radius: 50px;
+    border: none;
+    margin-left: 10px;
+    height: 43px;
+    width: 150px;
+    font-size: 15px;
+}
+.img {
+    height: 400px;
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 350px;   
+
+}
